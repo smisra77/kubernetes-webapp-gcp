@@ -10,6 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
+          <p style="color:#FFFFFF">Welcome to Shivanshu's Kubernetes WebApp</p>
           <img src={logo} className="App-logo" alt="logo" />
           <a
             className="App-link"
