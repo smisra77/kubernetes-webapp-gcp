@@ -13,7 +13,7 @@ before_install:
   - gcloud auth activate-service-account --key-file service-account.json
   - gcloud config set project gcs-gcp-access
   - gcloud config set compute/zone us-west1-a
-  - gcloud containers clusters get-credentials smisra-k8s-multicluster
+  - gcloud container clusters get-credentials smisra-k8s-multicluster
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker build -t smisra1988/react-test -f ./client/Dockerfile.dev ./client
 
