@@ -10,7 +10,6 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <p style="color:#FFFFFF">Welcome to Shivanshu's Kubernetes WebApp</p>
           <img src={logo} className="App-logo" alt="logo" />
           <a
             className="App-link"
@@ -21,7 +20,7 @@ function App() {
             Learn React 3
           </a>
           <Link to="/">Home</Link>
-          <Link to="/otherpage">Other Page</Link>
+          <Link to="/otherpage">Welcome to Shivanshu's Kubernetes WebApp</Link>
         </header>
         <div>
           <Route exact path="/" component={Fib} />
